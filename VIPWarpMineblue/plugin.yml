@@ -1,0 +1,29 @@
+main: com.mcmineblue.plugin.oscarmj11.VIPWarpMain
+version: 1.1.0
+author: oscarmj11
+name: Mineblue-VIPWarp
+
+commands:
+  vip: 
+    usage: /<command>
+    description: Teletransportarse al area vip
+  vipback: 
+    usage: /<command>
+    description: Despues de visitar el area vip, volver posicion anterior
+  setvip:
+    usage: /<command>
+    description: Establecer spawn zona vip    
+
+permissions:
+  vip.tp: 
+    default: false
+    description: Teletransportarse a la zona vip
+  vip.back: 
+    default: false
+    description: Volver a la posicion anterior antes de haber utilizado /vip
+  vip.set:
+    default: false
+    description: Establecer la zona vip
+ 
+
+      
